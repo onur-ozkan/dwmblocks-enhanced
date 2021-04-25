@@ -9,7 +9,7 @@ static const Block blocks[] = {
 	{ "dwm_brightness",	0,		11	},
 	{ "dwm_volume",		0,		10	},
 	{ "dwm_network",	    3,	    0   },
-	{ "dwm_traffic",	    1,	    0   },
+	// { "dwm_traffic",	    1,	    0   },
 	{ "dwm_battery",		3,		0	},
 	{ "dwm_clock",		3,		0	},
 	{ "dwm_uptime",		60,		0	},
