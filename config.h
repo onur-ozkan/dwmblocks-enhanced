@@ -14,7 +14,6 @@ static const Block blocks[] = {
 	{ "dwm_clock",		3,		0	},
 	{ "dwm_keyboard_layout",	0,		12	},
 	{ "dwm_uptime",		60,		0	},
-	{ "padding_fixer",		0,		0	},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
