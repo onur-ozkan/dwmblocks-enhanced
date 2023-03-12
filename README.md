@@ -1,5 +1,18 @@
-To use dwmblocks first run 'make' and then install it with 'sudo make install'.
-After that you can put dwmblocks in your xinitrc or other startup script to have it start with dwm. ([this scripts](https://github.com/ozkanonur/dotfiles/tree/master/.local/bin/statusbar) must be in the bin path)
+dwmblocks-enhanced
+--------------------
 
+Requirements
+------------
+In order to build dwmblocks-enhanced you need the Xlib header files. For runtime, if you haven't modified `config.h`, you will need [this scripts](https://github.com/ozkanonur/dotfiles/tree/master/.local/bin/statusbar) in your system and `PATH`.
 
-Related article: https://onurozkan.dev/posts/reasons-that-i-left-gnome-and-kde
+Installation
+------------
+Enter the following command to build and install dwmblocks-enhanced:
+
+    sudo make clean install
+
+Uninstallation
+------------
+Enter the following command to uninstall dwmblocks-enhanced completely from the machine:
+
+    sudo make clean uninstall
